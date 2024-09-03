@@ -1,51 +1,54 @@
-# Личный проект «Кекстаграм»
 
-* Студент: [Anton Bogza](https://up.htmlacademy.ru/javascript/31/user/170338).
-* Наставник: [Алексей Васильев](https://htmlacademy.ru/profile/id1353249).
+# Kekstagram
 
----
+**Kekstagram** is a JavaScript project created as part of the intensive course "JavaScript. Professional Web Interface Development" by [HTML Academy](https://htmlacademy.ru). The project involves building a functional and interactive photo-sharing web application.
 
-_Не удаляйте и не изменяйте самовольно файлы и папки:_
-_`.editorconfig`, `.eslintrc`, `.gitattributes`, `.gitignore`, `package-lock.json`, `package.json`., `.github`_
+## Project Structure
 
----
+- **Source Files**: The main development files are located in the root directory.
+- **Styles**: Custom styles are located in the `css/` directory.
+- **Scripts**: JavaScript files are found in the `js/` directory.
+- **Assets**: Images and other assets are stored in the `img/` and `photos/` directories.
 
-[Как работать с Git на проекте](Contributing.md) | [Как работать над проектом](Workflow.md)
+## Getting Started
 
-### Памятка
+To work with this project locally, follow these steps:
 
-#### 1. Зарегистрируйтесь на Гитхабе
+### Prerequisites
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+Ensure you have the following installed:
 
-#### 2. Создайте форк
+- [Node.js](https://nodejs.org/)
 
-Откройте репозиторий и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+### Installation
 
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/35275222-1d624452-0050-11e8-8aca-06d2832724ce.png">
+1. **Clone the Repository**:
+   ```bash
+   git clone git@github.com:AvtRikki/kekstagram.git
+   ```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd kekstagram
+   ```
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-Получится вот так:
+### Running the Project
 
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/35275223-1d7cf9fa-0050-11e8-829b-98ac3c9a4f8b.png">
+To start the project locally:
 
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/35275224-1d97a7dc-0050-11e8-89f9-41c9a7b2ae9c.png">
-
-Клонировать репозиторий можно так:
-
+```bash
+npm start
 ```
-git clone SSH-адрес_вашего_форка
-```
 
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+This will serve the project on a local development server.
 
-#### 4. Начинайте обучение!
+## Contributing
 
----
+Contributions are welcome! Please fork this repository and submit pull requests for any improvements or bug fixes.
 
-<a href="https://htmlacademy.ru/intensive/javascript"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/javascript/logo-for-github-2.png"></a>
+## License
 
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[JavaScript. Профессиональная разработка веб-интерфейсов](https://htmlacademy.ru/intensive/javascript)» от [HTML Academy](https://htmlacademy.ru).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
